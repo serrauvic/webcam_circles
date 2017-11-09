@@ -12,3 +12,11 @@ Es basa en transformar punts de la imatge en un espai de paràmetres amb la idea
 En principi, està pensada per a la detecció de rectes, però també és aplicable a qualsevol funció de la forma f(v,c) =0. On v és un vector de coordenades i c és un vector de coeficients.
 
 Referencies:
+
+https://ca.wikipedia.org/wiki/Transformada_de_Hough
+
+http://tomaszkacmajor.pl/index.php/2017/06/05/hough-lines-transform-explained/
+
+https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_houghlines/py_houghlines.html
+
+https://docs.opencv.org/2.4/doc/tutorials/imgproc/imgtrans/hough_circle/hough_circle.html
