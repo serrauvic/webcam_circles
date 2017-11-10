@@ -11,6 +11,10 @@ Es basa en transformar punts de la imatge en un espai de paràmetres amb la idea
 
 En principi, està pensada per a la detecció de rectes, però també és aplicable a qualsevol funció de la forma f(v,c) =0. On v és un vector de coordenades i c és un vector de coeficients.
 
+En aquesta aplicació s’implementa la transformada de Hough espcialitzada en la detecció de cercles. La idea es detectar cercles en imatges imperfectes, contant el número dels cercles candidats dins l’espai «hough» i posteriorment seleccionant el valor màxim en la matriu d’acumulació. 
+
+Com a particularitat s’ha afegit el text en la imatge de les coordenades x i y del centre del cercle detectat.
+
 Referencies:
 
 https://ca.wikipedia.org/wiki/Transformada_de_Hough
